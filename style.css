@@ -6,60 +6,59 @@
     font-family: 'Prompt', sans-serif;
 }
 /* Styling Navbar */
-#header-body nav {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-    text-decoration: none;
-}
-nav ul a{
-    /* text-decoration: overline underline; */
+body{
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
     color: black;
 }
-#grp-1{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
+.bkg-video{
+    position: absolute;
+    width: 100%;
+    height: 89%;
     /* border: 1px solid black; */
+} 
+#back-video{
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+header nav{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    margin-top: .5rem;
+    align-items: center;
 }
-#grp-1 li{
-    margin-left: 20px;
-    font-size: small;
-    font-weight: bolder;
+/* removing bullets and underlines  */
+header nav ul li{
+    list-style: none;
 }
-
-#grp-2{
-    list-style:none;
-    /* left: 0; */
-    margin:0 auto;
-    /* text-align: center; */
-}
-#grp-2 li{
+header nav ul li a{
+    text-decoration: none;
+    color: black;
     font-weight: 800;
-    font-size: 20px;
-    letter-spacing: 6px;
-    text-decoration: overline underline;
 }
-/* #grp-2 li h3{
-    text-decoration: overline;
-} */
+/* aligning in one line */
+    
+.left-side{
+    flex: 1;
+}
 
-#grp-2 li h6{
-    margin-left: 32px;
-    /* text-decoration: underline; */
+.left-side ul{
+    display: flex;   
+    font-size: 0.7rem;
 }
-#grp-3{
-    list-style: none;
+.left-side ul li:last-child{
+    margin-left: 1.5rem;
+}
+.logo{
+    flex: 1;
+}
+.right-side ul{
     display: flex;
-    align-items: center;
-    /* border: 1px solid black; */
-}
-#grp-3 li{
-    margin-left: 40px;
-    margin-right: 5px;
-}
-#grp-3 li:first-child{
-    margin-left: 100px;
+    border: 1px solid black;
+    width: 4rem;
+    justify-content: space-between;
 }
