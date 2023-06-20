@@ -217,8 +217,13 @@ header nav ul li a{
     display: flex;
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+
 }
 .slider--first-half{
+    flex: 1;
+    min-width: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -251,9 +256,14 @@ header nav ul li a{
     background-color: #1b1d1c;
 }
 .slider--second-half{
-    max-width: 50vw;
+    max-width: 50%;
+    overflow: hidden;
+
 }
 .second-half-img{
+    flex: 1;
+    min-width: 0;
     max-height: 100%;
+    object-fit: cover;
 }
 
