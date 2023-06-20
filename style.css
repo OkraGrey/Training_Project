@@ -301,3 +301,106 @@ header nav ul li a{
     height: 6rem;
     padding: 8px 10px;
 }
+/* (31, 34, 33) */
+/* footer begins here */
+.footer-container{
+    background-color:rgb(41, 43, 38);
+}
+.footer--up{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8rem;
+    
+}
+.footer--up-first{
+    /*  */
+}
+.footer--up-first-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.footer--up-first-icons a{
+    text-decoration: none;
+    color: black;
+}
+.footer--up-first-icons a:hover{
+    font-size: 1.1rem;
+}
+
+.footer--up-second h4{
+    color:rgba(153, 129, 82,1);
+    margin-bottom: 25px;
+}
+.footer--up-second-list{
+    list-style: none;
+    font-size: 0.8rem;
+}
+.footer--up-second-list  li{
+    margin-top: 15px;
+} 
+.footer--up-second-list li a{
+    color: white;
+    text-decoration: none;
+
+}
+.footer-fourth_first table{
+    color: white;
+}
+.footer-fourth_first table td{
+    padding-right: 5px;
+    font-size: 0.8rem;
+}
+.footer--down{
+    background-color: rgb(31, 34, 33);
+    color: white;
+    font-size: 0.76rem;
+    padding: 20px 30px;
+}
+.footer--down--text{
+    display: flex;
+}
+.footer--down--text a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.footer--down--text a:hover{
+    color: rgba(153, 129, 82,1);;
+}
+.last{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.last p:first-child{
+    margin-right: 10px;
+    color: #888888;
+}
+.last span{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-fourth_third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer-fourth_third img{
+    height: 25px;
+    width: auto;
+}
