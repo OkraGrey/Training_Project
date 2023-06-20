@@ -155,7 +155,14 @@ header nav ul li a{
     min-width: 0;
     margin: 0 15px;
     box-sizing: border-box;
+    transition: flex-shrink;
+    position: relative;
+    transition: transform 0.3s ease;
     /* border: 1px solid black; */
+}
+
+.advertisement--box:hover{
+    transform: scale(0.94);
 }
 .advertisement--box a{
     text-decoration: none;
@@ -166,7 +173,14 @@ header nav ul li a{
 .advertisement--box-img{
     max-width: 300px;
     height: auto;
+    position: relative;
+    transition: transform 0.3s ease;
+    /* transition-property: width;
+    transition-duration: 12s;
+    transition-delay: 2s;
+    transition-timing-function: ease-out; */
 }
+
 /* going inside the boxes */
 .advertisement--box-para{
     font-size: 1.5rem;
@@ -289,6 +303,13 @@ header nav ul li a{
     width: 40%;
     height: auto;
     margin: 20px;
+    
+    position: relative;
+    transition: transform 0.4s ease;
+
+}
+.section5-sub-container:hover{
+    transform:translateY(-10px);
 }
 .section5-img{
     width: 100%;
@@ -312,9 +333,7 @@ header nav ul li a{
     padding-top: 8rem;
     
 }
-.footer--up-first{
-    /*  */
-}
+
 .footer--up-first-icons{
     display: flex;
     justify-content: space-around;
