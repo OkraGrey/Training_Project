@@ -324,9 +324,18 @@ header nav ul li a{
 }
 /* (31, 34, 33) */
 /* footer begins here */
+@keyframes colorChange {
+    0% { background-color: rgb(41, 43, 38); }
+    25% { background-color: rgb(88, 85, 85); }
+    50% { background-color: rgb(41, 43, 38); }
+    75% { background-color:rgb(88, 85, 85);}
+    100%{background-color: rgb(41, 43, 38);}
+  }
 .footer-container{
     background-color:rgb(41, 43, 38);
+    animation: colorChange 5s infinite;
 }
+
 .footer--up{
     display: flex;
     justify-content: space-around;
@@ -402,18 +411,6 @@ header nav ul li a{
 .last span{
     font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-fourth_third{
     display: flex;
     justify-content: space-between;
