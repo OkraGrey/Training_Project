@@ -267,3 +267,37 @@ header nav ul li a{
     object-fit: cover;
 }
 
+/* section 5 */
+
+.section5--container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgba(116,116,109,0.45);
+    justify-content: space-around;
+    
+}
+.section5--container a{
+    text-decoration: none;
+    color: black;
+
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.section5-sub-container{
+    z-index: 1;
+    box-shadow: 5px 20px 10px  #888888;
+    width: 40%;
+    height: auto;
+    margin: 20px;
+}
+.section5-img{
+    width: 100%;
+    height: auto;
+}
+.section-5-desc{
+    background-color: white;
+    margin-top: 0;
+    width: 100%;
+    height: 6rem;
+    padding: 8px 10px;
+}
