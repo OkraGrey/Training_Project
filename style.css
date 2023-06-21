@@ -533,4 +533,20 @@ header nav ul li a{
         /* margin: 50px;
         margin-top: 0; */
     }
+    .double--slider{
+        flex-direction:column-reverse;
+        width: 96vw;
+    }
+    .slider--second-half{
+        max-width: 100%;
+    }
+    .second-half-img{
+        width: 1000px;
+    }
+    .slider--first-half{
+        flex: 1;
+    }
+    .slider--second-half{
+        flex: 1;
+    }
   }
