@@ -325,6 +325,12 @@ header nav ul li a{
     transition: transform 0.4s ease;
 
 }
+.section5-sub-container p{
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
 .section5-sub-container:hover{
     transform:translateY(-10px);
 }
@@ -438,7 +444,9 @@ header nav ul li a{
     width: auto;
 }
 
-
+.section5-sub-container-span-resp{
+    display: none;
+}
 /* responsiveness */
 /* Navbar should change after 860 px */
 @media screen and (max-width: 860px) {
@@ -472,13 +480,6 @@ header nav ul li a{
     }
 
     /* Navbar done */
-
-    /* .content{
-        width: 70%;
-        font-size: 1.3rem;
-        flex-direction: column;
-        z-index: inherit;
-    } */
     .search-bar{
         display: flex;
         flex-direction: column;
@@ -549,4 +550,91 @@ header nav ul li a{
     .slider--second-half{
         flex: 1;
     }
+
+
+    /* section 5 */
+.section5--container{
+    flex-direction: column;
+    align-items: center;
+}
+.section5-sub-container{
+    width: 80%;
+}
+.section5-sub-container a{
+    display: flex;
+}
+.section5-sub-container-resp{
+    display: flex;
+    max-width: 140px;
+    height: auto;
+}
+.section5-sub-container-para{
+    display: none;
+}
+.section-5-desc{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.section-5-desc h3{
+    font-weight: 100;
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+.section5-sub-container-span-resp{
+    display: block;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.footer-container{
+
+}
+.footer--up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer--up-first a{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer--up-second{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+.footer--up-second ul{
+    display: none;
+}
+.footer--up-second h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(187, 151, 79);
+}
+.footer--up-fourth{
+    margin-right: auto;
+    margin-left: 10px;
+}
+/* 
+.footer--down{
+    display: flex;
+    flex-direction: ;
+} */
+.footer--down--text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.last span{
+    margin-right: auto;
+    margin-top: 10px;
+}
   }
