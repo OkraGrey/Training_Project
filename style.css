@@ -96,7 +96,8 @@ header nav ul li a{
     text-align: center;
     position: absolute;
     width: 100%;
-    display: inline;
+    /* display: flex;
+    flex-direction: column; */
 }
 .content h1{
     color: white;
@@ -130,9 +131,10 @@ header nav ul li a{
 }
 
 .search-bar button{
-    flex:2;
+    /* flex:2; */
     margin: 0 20px;
-    padding:10px 10px;
+    margin-left: auto;
+    padding:15px 30px;
     background-color: rgba(153, 129, 82,0.7);
     border: none;
     font-size: 0.7rem;
@@ -442,12 +444,19 @@ header nav ul li a{
 
     .left-side-resp{
         display: block;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .left-side-resp:hover{
+        font-size: 1.09rem;
     }
 
     .logo .logo-web{
         display: none;
     }
-
+    .right-side ul li:last-child:hover{
+        font-size: 1.09rem;
+    }
     .logo .logo-resp{
         display: block;
         margin-top:2px;
@@ -457,4 +466,42 @@ header nav ul li a{
     .right-side ul li:first-child{
         visibility: hidden;
     }
+
+    /* Navbar done */
+
+    /* .content{
+        width: 70%;
+        font-size: 1.3rem;
+        flex-direction: column;
+        z-index: inherit;
+    } */
+    .search-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-bar button{
+        width: 100%;
+    }
+    .search--bar-container-1-span{
+        display: none;
+    
+    }
+    .search--bar-container-1 {
+        margin-top: 10px;
+    }
+    .search--bar-container-1 input::placeholder{
+        font-size: 1rem;
+        
+    }
+    .search--bar-container-1 input{
+        margin-bottom: 4%;
+    }
+    .search--bar-container-1  i{
+        font-size: 1rem;
+    }
+    .content-heading h1{
+        font-size: 1.9rem;
+        margin-bottom: 10px;
+    }
+
   }
