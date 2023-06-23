@@ -366,7 +366,7 @@ header nav ul li a{
     width: 40%;
     height: auto;
     margin: 20px;
-    
+    background-color: white;
     position: relative;
     transition: transform 0.3s ease;
 
